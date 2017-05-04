@@ -1,0 +1,3 @@
+ lzma -dc -S .lz ../initrd.lz | cpio -imvd --no-absolute-filenames
+ cp ../initrd.lz ../inird.lz.orig
+ find . | cpio --quiet --dereference -o -H newc | lzma -7 > ../initrd.lz
