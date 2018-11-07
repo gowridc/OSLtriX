@@ -1,2 +1,2 @@
 # OSLtriX
-Config files used in OSLtriX
+__Config files used in OSLtriX__
